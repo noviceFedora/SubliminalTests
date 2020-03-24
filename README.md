@@ -8,7 +8,7 @@ Presently there is 1 subliminal experiment in this repository made with HTML, Ja
 
 The file titled "ColorSubliminalTest.html" displays a random 4 digit number with a color similar to, but not same as background. Presently it falls short of 2 requirements from it being able to test effectiveness of this type of subliminal.
 
-Explation for ColorSubliminal Test: It has been sepeculated that humans can perceived millions of colors, these can be used to make subliminal messages. As it is difficult for a normal human to distinguish between two similar shades of same color, this slight difference between shades of a color can be used to make subliminal messages, which may not be perceived consciously but the subconscious and unconscious might register them. This clandestine form of manipulation deserves to made known to the entire public and safe guards against it must be put in place. 
+Explation for ColorSubliminal Test: It has been sepeculated that humans can perceive millions of colors, these can be used to make subliminal messages. As it is difficult for a normal human to distinguish between two similar shades of same color, this slight difference between shades of a color can be used to make subliminal messages, which may not be perceived consciously but the subconscious and unconscious might register them. This clandestine form of manipulation deserves to made known to the entire public and safe guards against it must be put in place. 
 
 United Nations has classified subliminals which it also refers to as "perception without awareness" as a major threat to human rights. 
 
