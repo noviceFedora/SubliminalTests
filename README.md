@@ -1,6 +1,6 @@
 # SubliminalTests
 
-A collection of software experiments to test effectiveness of various kind of subliminals. 
+A collection of software experiments to test effectiveness of various kinds of subliminals. 
 
 Uses GNU 3.0 lincense. 
 
