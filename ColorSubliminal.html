@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Color Subliminal Test</title>
+<style>
+body {
+  height: 100vh;
+}
+.rfd {
+  position: fixed;
+}
+</style>
+</head>
+ 
+<body>
+<h1>JavaScript Practice</h1>
+ 
+<button id="bt" type="button" onclick="startTest();">Start Test</button>
+ 
+<span class="rfd"></span>
+ 
+<script>
+function startTest(){
+ 
+var fourdigitsrandom = Math.floor(1000 + Math.random() * 9000);
+ 
+var r = Math.floor(Math.random() * 256);
+var g = Math.floor(Math.random() * 256);
+var b = Math.floor(Math.random() * 256);
+var bgColor = "rgb(" + r + "," + g + "," + b + ")";
+ 
+var rfd_rc = "rgb(" + (r-1) + "," + (g-1) + "," + (b-1) + ")";
+ 
+function brColor() {
+document.body.style.background = bgColor;
+    }
+ 
+brColor();
+ 
+function rnColor() {
+ 
+//document.querySelector('.rfd').innerHTML=fourdigitsrandom;
+document.querySelector('.rfd').style.color = rfd_rc;
+document.querySelector('.rfd').style.fontSize= "500%";
+    }
+   
+rnColor();
+ 
+ 
+    const body = document.body;
+    const chr = document.querySelector('.rfd');
+    const prev = [0,0];
+   
+function posChr () {
+     
+  let x = Math.floor(Math.random() * body.offsetWidth);
+  let y = Math.floor(Math.random() * body.offsetHeight);
+ 
+  while (Math.sqrt((x - prev[0]) ** 2 + (y - prev[1]) ** 2) < 10) {
+    x = Math.floor(Math.random() * body.offsetWidth);
+    y = Math.floor(Math.random() * body.offsetHeight);
+  }
+  chr.style.left = `${x}px`;
+  chr.style.top = `${y}px`;
+  chr.textContent = fourdigitsrandom;
+  prev[0] = x;
+  prev[1] = y;
+ 
+    setTimeout(posChr, 500);
+    //requestAnimationFrame(posChr)
+}
+ 
+   
+    setTimeout(posChr, 500)
+    //requestAnimationFrame(posChr)
+ 
+}
+ 
+</script>
+ 
+</body>
+ 
+</html>
