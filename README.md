@@ -17,6 +17,8 @@ When people hear the word subliminal, most would think of messages being flashed
 1. Sublimianls made with slight color variation to blend with the background. 
 2. Subliminals made by changing the opacity of the message to blend with the background. 
 
-Both of these types of subliminals can persist on every frame and might be indistinguishable from what is being seen, but might registered by the subconscious. It is to test these types of theories of making subliminal messages that this GitHub repository has been created. 
+Both of these types of subliminals can persist on every frame and might be indistinguishable from what is being seen, but might be registered by the subconscious. It is to test these types of theories of making subliminal messages that this GitHub repository has been created. I feel only by bringing this to light can others be innoculated against it.
 
 If you have the skills necessary to make these kind of subliminal tests, you are welcome to join this and contribute to it.
+
+Presently the tests are confined to HTML, JavaScript and CSS but if can port these experiments in C, C++, C#, Python, Java, LUA, etc you are also welcome to join this project.
