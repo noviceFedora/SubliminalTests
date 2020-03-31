@@ -22,3 +22,5 @@ Both of these types of subliminals can persist on every frame and might be indis
 If you have the skills necessary to make these kind of subliminal tests, you are welcome to join this and contribute to it.
 
 Presently the tests are confined to HTML, JavaScript and CSS but if can port these experiments in C, C++, C#, Python, Java, LUA, etc you are also welcome to join this project.
+
+Most of the code was gleaned and repurposed from example codes, other codes posted by users to answers, etc. 
